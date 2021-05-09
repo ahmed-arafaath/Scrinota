@@ -1,4 +1,5 @@
-# Scrinota # - *Current Version: 1.0*
+# Scrinota 
+*Current Version: 1.0*
 
 The current version in this repo is a prototype version for the final project of the course CS50: Introduction to Computer Science.
 
