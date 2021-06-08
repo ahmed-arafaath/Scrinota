@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Scrinota</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body class="text-monospace">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="col-10">
+            <a href="popup.html" class="navbar-brand">
+                <img src="images/logo16.png" alt="Scrinota" loading="lazy"/>
+                <p class="lead font-weight-bold">Scrinota</p>
+            </a>
+        </div>
+        <!-- Link to help page -->
+        <div class="col-2">
+            <a href="help.html" class="nav-item">
+                <img src="images/help.png" alt="help" width="20" height="20" loading="lazy"/>
+            </a>
+        </div>
+    </nav>
+    <main>
+
+        <!-- Link to completed page -->
+        <a href="completed.html">Click here to see finished reminder</a>
+        
+        <!-- Form to create new reminder -->
+        <form id="rem-set" action="#" class="help-text">
+            <h3 class="font-weight-bold">Set new alert</h3>
+            <div class="form-group"> <!-- Date input -->
+                <label for="date">Date: </label>
+                <input id="date" name="date" placeholder="DD" type="number" min="1" max="31" required/> 
+                <label>/</label>
+                <input id="month" name="date" placeholder="MM" type="number" min="1" max="12" required/>
+                <label>/2021</label>
+                <br>
+                <small><i>Please specify the corect date</i></small>
+              </div>
+              
+            <div class="form-group"> <!-- Time input -->
+                <label>Time:</label>
+                <input type="number" id="hr" min="1" max="24" name="hour" placeholder="hh" required>
+                <label>:</label>
+                <input type="number" id="min" min="0" max="59" name="min" placeholder="mm" required><br>
+                <small><i>Please specify in 24h format</i></small>
+            </div>
+            <div class="form-group"> <!-- URL input -->
+                <label>Enter your URL: </label> <br>
+                <textarea type="text" id="url" placeholder="Please paste your url" required></textarea><br>
+                <small><i>Please make sure the url is correct, eg: <b> https://www.google.com/</b></i></small>
+            </div>
+            <div class="form-group"> <!-- URL Title input -->
+                <label>Enter your URL title: </label> <br>
+                <input type="text" id="title" placeholder="Url title" required><br>
+            </div>
+            
+            <!-- Submit Button -->
+            <div>
+                <button type="submit"class="btn btn-dark">Add Reminder</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>Note: This is just a prototype versions, it does not reflect the final product</footer>
+    
+     <!-- scripts -->
+     <script src="js-file/reminder.js"></script>
+     <script src="js-file/jquery-3.6.0.min.js"></script>
+     <script src="js-file/bootstrap.min.js"></script>
+</body>
