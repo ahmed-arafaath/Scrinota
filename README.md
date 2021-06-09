@@ -1,4 +1,4 @@
-# Scrinota 
+# <img src="images/logo128.png" alt="Logo" width="50" height="50"> Scrinota 
 *Current Version: 1.0*
 
 The current version in this repo is a prototype version for the final project of the course CS50: Introduction to Computer Science.
