@@ -73,7 +73,7 @@ Follow this <a href="https://www.google.com/chrome/thank-you.html?statcb=1&insta
 3. In the extension page, toggle the developer mode button and you will see the options below, of that click the load unpacked button and select the project folder.
   ![Extension page](https://github.com/ahmed-arafaath/Scrinota-Chrome-Extension/blob/main/ReadMe%20img/Capture.JPG)
   
-4. Now I assuming you have uploaded the chrome extension into the browser, you should see the **Scrinota** icon next to the address bar. If you do not see the icon. then click the extension icon highlighted below in the screenshot and the popup will appear then pin scrinota to address bar.
+4. Now I am assuming that you have uploaded the chrome extension into the browser, you should see the **Scrinota** icon next to the address bar. If you do not see the icon. then click the extension icon highlighted below in the screenshot and the popup will appear then pin scrinota to address bar.
 
 <p align="center"><img src="https://github.com/ahmed-arafaath/Scrinota-Chrome-Extension/blob/main/ReadMe%20img/Screenshot%20(139).png" alt="Extension screenshot"></p>
 
