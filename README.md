@@ -21,7 +21,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap"Roadmap</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -53,6 +53,7 @@ Doing this has cost me my PC’s memory and an overwhelming number of tabs being
 1. Web developement tools - HTML, CSS (Framework-<a href="https://getbootstrap.com/">Bootstrap</a>), Javascript.
 2. APIs used - <a href="https://developer.chrome.com/docs/extensions/reference/storage/">Chrome.Storage</a>, <a href="https://developer.chrome.com/docs/extensions/reference/windows/">Chrome.windows</a>, <a href="https://developer.chrome.com/docs/extensions/reference/notifications/">Chrome.notifications</a>, <a href="https://developer.chrome.com/docs/extensions/reference/alarms/">Chrome.alarms</a>.
 
+<!-- Getting Started -->
 ## Getting Started
 
 ### Prerequisites
@@ -68,25 +69,74 @@ Follow this <a href="https://www.google.com/chrome/thank-you.html?statcb=1&insta
    git clone https://github.com/your_username_/Project-Name.git
    ```
  
-2. Open the chrome browser and type *chrome://extensions* into the address bar.
-3. In the extension page, toggle the developer mode button and you will see 
+2. Open the chrome browser and type ***chrome://extensions*** into the address bar.
+3. In the extension page, toggle the developer mode button and you will see the options below, of that click the load unpacked button and select the project folder.
+  ![Extension page](https://github.com/ahmed-arafaath/Scrinota-Chrome-Extension/blob/main/ReadMe%20img/Capture.JPG)
+  
+4. Now I assuming you have uploaded the chrome extension into the browser, you should see the **Scrinota** icon next to the address bar. If you do not see the icon. then click the extension icon highlighted below in the screenshot and the popup will appear then pin scrinota to address bar.
+
+<p align="center"><img src="https://github.com/ahmed-arafaath/Scrinota-Chrome-Extension/blob/main/ReadMe%20img/Screenshot%20(139).png" alt="Extension screenshot"></p>
+
+5. That's it! Now enjoy using the extension and do let me know if you have any feedback.
+
+<!-- Usage -->
+## Usage
+
+The badge you see in the extension icon shows the number of active reminders.
+
+### Popup Page
+
+<p align="center"><img src="ReadMe img/popup.JPG" alt="popup page"></p>
+
+On this page, you will be able to see active reminder that you have set. The plus button below will take you to **reminder page**. This page also has link which will take you to **completed page**. In this page, you will also be able to delete an active reminders that you have set previously.
+
+### Completed Page
+
+<p align="center"><img src="ReadMe img/completed.JPG" alt="completed page" width="300" height="500"></p>
+
+On this page, you will be able to see all the completed reminders in a table.
+
+### Reminder Page
+
+<p align="center"><img src="ReadMe img/reminder.JPG" alt="reminder page" width="300" height="500"></p>
+
+On this page, you will be able to add a new reminder in a form. The form contains input space for date, time, URL, and URL title. Upon submission, the extension will take you to popup page.
+
+<p align="center"><img src="ReadMe img/logo.JPG" alt="Extension Logo"></p>
+
+The logo icon will take you to the active reminders page i.e., popup page and the help icon will take you to a page filled with the extension uses and how to use the extension. 
+
+<!-- Roadmap -->
+## Roadmap
+
+* This prototype version will only include a reminder option, where a user can set up a date and time for any particular website they wish to visit in the future.
+* Next in pipeline would be to implement the note taking feature and to make it unique to websites.
+
+<!-- Contributing -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- Contact -->
+## Contact
+
+LinkedIn - [https://www.linkedin.com/in/ahmed-arafaath-ali-952a24117/](https://www.linkedin.com/in/ahmed-arafaath-ali-952a24117/)
 
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+This extension was developed as a final project for the course CS50. Go to this [link](https://cs50.harvard.edu/x/2021/) for more details.
 
+Thanks Prof. Malan, Brian, Dough for making me curious about lower level details in Computer Science. Through working on this project I had the most fun in solving the challenges and thinking about implementation in lower level. With the help of this course, I was able to bring my abstract idea into reality.
 
-
-
-
-
-
-
-
-
-
-This prototype version will only include a reminder option, where a user can set up a date and time for any particular website they wish to visit in the future. When the time comes, an alert will pop in the chrome extension with the description user stored when setting up the timer.
-
-
-
-
-
-#### Thank you for your time 
