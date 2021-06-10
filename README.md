@@ -3,7 +3,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</sumaary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#project-description">Project Description</a>
@@ -136,7 +136,8 @@ LinkedIn - [https://www.linkedin.com/in/ahmed-arafaath-ali-952a24117/](https://w
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-This extension was developed as a final project for the course CS50. Go to this [link](https://cs50.harvard.edu/x/2021/) for more details.
+This extension was developed as a final project for the course CS50. Go to this [link](https://cs50.harvard.edu/x/2021/) for more details on the course.
+This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript. 
 
-Thanks Prof. Malan, Brian, Dough for making me curious about lower level details in Computer Science. Through working on this project I had the most fun in solving the challenges and thinking about implementation in lower level. With the help of this course, I was able to bring my abstract idea into reality.
+Thanks Prof. David Malan, Brian Yu, Doug Lloyd for introducing me to the world of computer science. Through working on this project I had the most fun in solving the challenges and thinking about implementation in lower level. With the help of this course, I was able to bring my abstract idea into logical reality.
 
