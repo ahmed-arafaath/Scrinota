@@ -89,6 +89,11 @@ Follow this <a href="https://www.google.com/chrome/thank-you.html?statcb=1&insta
 <!-- Usage -->
 ## Usage
 
+
+https://user-images.githubusercontent.com/75636961/121729670-06805400-caef-11eb-8e15-cd7a4add5a39.mp4
+
+
+
 The badge you see in the extension icon shows the number of active reminders.
 
 ### Popup Page
