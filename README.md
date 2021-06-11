@@ -106,6 +106,12 @@ On this page, you will be able to add a new reminder in a form. The form contain
 
 The logo icon will take you to the active reminders page i.e., popup page and the help icon will take you to a page filled with the extension uses and how to use the extension. 
 
+### Scripts
+
+The background script handles event listener for this extenision, popup.js dynamically loads active reminder from chrome.storage, reminder.js adds new reminder to storage and sets up new alarms, completed.js dynamically loads all the reminders which were completed.
+
+I have loaded the 
+
 <!-- Roadmap -->
 ## Roadmap
 
