@@ -66,7 +66,7 @@ Follow this <a href="https://www.google.com/chrome/thank-you.html?statcb=1&insta
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ahmed-arafaath/Scrinota-Chrome-Extension.git
    ```
  
 2. Open the chrome browser and type ***chrome://extensions*** into the address bar.
