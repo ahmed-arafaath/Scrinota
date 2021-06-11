@@ -53,6 +53,13 @@ Doing this has cost me my PC’s memory and an overwhelming number of tabs being
 1. Web developement tools - HTML, CSS (Framework-<a href="https://getbootstrap.com/">Bootstrap</a>), Javascript.
 2. APIs used - <a href="https://developer.chrome.com/docs/extensions/reference/storage/">Chrome.Storage</a>, <a href="https://developer.chrome.com/docs/extensions/reference/windows/">Chrome.windows</a>, <a href="https://developer.chrome.com/docs/extensions/reference/notifications/">Chrome.notifications</a>, <a href="https://developer.chrome.com/docs/extensions/reference/alarms/">Chrome.alarms</a>.
 
+
+#### Scripts and their uses
+
+The background script handles event listener for chrome.alarm api and sets badges for active reminders, popup.js dynamically loads active reminder from chrome.storage and removes/disables any active reminder from chrome storage, reminder.js adds new reminder to the chrome.storage and sets up a new alarms, completed.js dynamically loads all the reminders which were completed.
+
+I have loaded the Bootstrap framework locally, as chrome's content security policy does not allow externally sourced links in extensions.
+
 <!-- Getting Started -->
 ## Getting Started
 
@@ -105,12 +112,6 @@ On this page, you will be able to add a new reminder in a form. The form contain
 <p align="center"><img src="ReadMe img/logo.JPG" alt="Extension Logo"></p>
 
 The logo icon will take you to the active reminders page i.e., popup page and the help icon will take you to a page filled with the extension uses and how to use the extension. 
-
-### Scripts
-
-The background script handles event listener for this extenision, popup.js dynamically loads active reminder from chrome.storage, reminder.js adds new reminder to storage and sets up new alarms, completed.js dynamically loads all the reminders which were completed.
-
-I have loaded the 
 
 <!-- Roadmap -->
 ## Roadmap
