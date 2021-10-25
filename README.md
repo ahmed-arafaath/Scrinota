@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Contact -->
 ## Contact
 
-LinkedIn - [https://www.linkedin.com/in/ahmed-arafaath-ali-952a24117/](https://www.linkedin.com/in/ahmed-arafaath-ali-952a24117/)
+LinkedIn - [https://www.linkedin.com/in/ahamedaali/](https://www.linkedin.com/in/ahamedaali/)
 
 
 <!-- ACKNOWLEDGEMENTS -->
